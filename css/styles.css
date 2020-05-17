@@ -1,0 +1,72 @@
+:root {
+    --mainFont: 'Raleway', sans-serif;
+    --secondaryFont: 'Lato', sans-serif;
+    --thirdFont: 'Italianno', cursive;
+}
+
+h2, h3 {
+    font-family: var(--secondaryFont);
+    color: black;
+    line-height: 2.4rem;
+}
+
+h2 {
+    color: black;
+    font-size: 2.4rem;
+}
+
+h2 span {
+    font-size: 4rem;
+}
+
+h2 span,
+h3 span {
+    font-family: var(--thirdFont);
+    display: block;
+    color: #e082a8;
+}
+
+
+/* ! Navigation */
+.navigation {
+    background-color: #8ed3cc;
+    margin-top: 40px;
+}
+
+nav.main-nav {
+    background-image: url(../img/border_horizontal.png),
+        url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+
+nav.main-nav .nav-item {
+    transition: background-color .3s ease;
+}
+
+nav.main-nav .nav-item:hover {
+    background-color: #39a69b;
+    border-radius: 10px;
+}
+
+nav.main-nav .nav-link {
+    font-size: 1.4rem;
+    color: white;
+    font-family: var(--mainFont);
+}
+
+/* ! Carousel */
+
+.carousel .carousel-caption h3 {
+    font-family: var(--mainFont);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* ! New Site */
+.new-website p {
+    font-size: 1.6rem;
+    color: #979797;
+    font-family: var(--secondaryFont);
+}
